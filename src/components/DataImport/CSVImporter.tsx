@@ -86,8 +86,17 @@ export const CSVImporter: React.FC<CSVImporterProps> = ({ onDataImport }) => {
           hover:file:bg-violet-100"
       />
       <p className="mt-2 text-sm text-gray-500">
-        Upload a CSV file with customer data
-      </p>
+  Upload a CSV file with customer data
+  {' '}Or use the{' '}
+  <a 
+    href="https://github.com/abhijai1510/Customer-Analytics/blob/main/customers%20(1).csv"
+    className="text-blue-600 hover:text-blue-800 underline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    default dataset
+  </a>
+</p>
     </div>
   );
 }; 
