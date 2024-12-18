@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 import joblib
 
-%matplotlib inline
+# %matplotlib inline
 
 ## 1. Data Loading and Preprocessing
 def load_data(file_path):
